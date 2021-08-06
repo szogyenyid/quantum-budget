@@ -6,35 +6,93 @@
     <title>Quantum Budget</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   </head>
-  <body>
+  <body class="has-navbar-fixed-bottom">
     <section class="section m-0 p-1">
-    <div class="columns is-mobile m-1">
-        <div class="column is-10" style="background:red">Date chooser</div>
-        <div class="column is-2 has-text-centered" style="background:blue">
-            <span class="icon">
-                <i class="fas fa-cog"></i>
-            </span>
+      <div class="columns is-mobile m-1">
+          <div class="column is-10" style="background:red">
+            <input type="month" id="start" name="start" min="2020-02" value="2021-07">
+          </div>
+          <div class="column is-2 has-text-centered">
+              <span class="icon is-size-4">
+                  <i class="fas fa-cog"></i>
+              </span>
+          </div>
+      </div>
+      <div class="columns is-mobile m-1">
+        <div class="column is-12 p-0">
+            <div class="notification is-success is-light">
+              Here comes "To be budgeted"
+            </div>
         </div>
-    </div>
-    <div class="columns is-mobile m-1">
-      <div class="column is-12 p-0">
-          <div class="notification is-success is-light">
-            Here comes "To be budgeted"
-          </div>
       </div>
-    </div>
-    <div class="columns is-mobile m-1">
-      <div class="column is-12 p-0">
-          <div class="notification is-warning is-light">
-            Here comes "Overspent"
-          </div>
+      <div class="columns is-mobile m-1">
+        <div class="column is-12 p-0">
+            <div class="notification is-warning is-light">
+              Here comes "Overspent"
+            </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
     <section class="section m-0 p-1">
-        <div class="container">
+        <div class="container mb-5">
           <div class="columns is-mobile is-vcentered m-1" style="background: #EFEFEF;border-radius: 10px 10px 0px 0px;">
-            <div class="column is-6"><b>Category Name</b></div>
+            <div class="column is-6"><b>Category Name #1</b></div>
+            <div class="column is-3">
+                <div class="content is-small m-0">Assigned</div>
+                <div class="content"><b>Amount</b></div>
+            </div>
+            <div class="column is-3">
+                <div class="content is-small m-0">Available</div>
+                <div class="content"><b>Amount</b></div>
+            </div>
+          </div>
+          <div class="columns is-mobile mx-1 my-0" style="border-bottom: 1px #DDD solid;">
+            <div class="column is-6 py-1">Subcategory Name</div>
+            <div class="column is-3 py-1">Amount</div>
+            <div class="column is-3 py-1">Amount</div>
+          </div>
+          <div class="columns is-mobile mx-1 my-0" style="border-bottom: 1px #DDD solid;">
+            <div class="column is-6 py-1">Subcategory Name</div>
+            <div class="column is-3 py-1">Amount</div>
+            <div class="column is-3 py-1">Amount</div>
+          </div>
+          <div class="columns is-mobile mx-1 my-0" style="border-bottom: 1px #DDD solid;">
+            <div class="column is-6 py-1">Subcategory Name</div>
+            <div class="column is-3 py-1">Amount</div>
+            <div class="column is-3 py-1">Amount</div>
+          </div>
+        </div>
+        <div class="container mb-5">
+          <div class="columns is-mobile is-vcentered m-1" style="background: #EFEFEF;border-radius: 10px 10px 0px 0px;">
+            <div class="column is-6"><b>Category Name #2</b></div>
+            <div class="column is-3">
+                <div class="content is-small m-0">Assigned</div>
+                <div class="content"><b>Amount</b></div>
+            </div>
+            <div class="column is-3">
+                <div class="content is-small m-0">Available</div>
+                <div class="content"><b>Amount</b></div>
+            </div>
+          </div>
+          <div class="columns is-mobile mx-1 my-0" style="border-bottom: 1px #DDD solid;">
+            <div class="column is-6 py-1">Subcategory Name</div>
+            <div class="column is-3 py-1">Amount</div>
+            <div class="column is-3 py-1">Amount</div>
+          </div>
+          <div class="columns is-mobile mx-1 my-0" style="border-bottom: 1px #DDD solid;">
+            <div class="column is-6 py-1">Subcategory Name</div>
+            <div class="column is-3 py-1">Amount</div>
+            <div class="column is-3 py-1">Amount</div>
+          </div>
+          <div class="columns is-mobile mx-1 my-0" style="border-bottom: 1px #DDD solid;">
+            <div class="column is-6 py-1">Subcategory Name</div>
+            <div class="column is-3 py-1">Amount</div>
+            <div class="column is-3 py-1">Amount</div>
+          </div>
+        </div>
+        <div class="container mb-5">
+          <div class="columns is-mobile is-vcentered m-1" style="background: #EFEFEF;border-radius: 10px 10px 0px 0px;">
+            <div class="column is-6"><b>Category Name #3</b></div>
             <div class="column is-3">
                 <div class="content is-small m-0">Assigned</div>
                 <div class="content"><b>Amount</b></div>
