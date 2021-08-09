@@ -1,4 +1,4 @@
-class TemplateGenerator{
+class CodeGenerator{
     constructor(){
         this.date = new Date();
     }
