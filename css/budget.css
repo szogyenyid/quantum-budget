@@ -1,0 +1,23 @@
+.is-w-100{
+    width: 100%;
+}
+
+.has-round-borders{
+    border-radius: 1000px;
+}
+
+.has-lightgray-background{
+    background: #EFEFEF;
+}
+
+.brt-10{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.has-thin-bottom-border{
+    border-bottom: 1px #DDD solid;
+}
+
+.is-displayed-as-block{
+    display: block;
+}
