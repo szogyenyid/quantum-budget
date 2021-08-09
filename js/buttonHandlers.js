@@ -6,5 +6,5 @@ document.querySelector("#settingsIcon").addEventListener("click", function (e){
 
 // Budget -> Settings -> Save
 document.querySelector("#saveBudgetSettings").addEventListener("click",function(e){
-	console.log("Todo: saving settings");
+	console.log("Todo: save budget settings");
 })
