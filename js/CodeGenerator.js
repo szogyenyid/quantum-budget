@@ -1,4 +1,6 @@
 class CodeGenerator{
+
+    // Later on, the DB will be passed here as parameter
     constructor(){
         this.date = new Date();
     }
