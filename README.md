@@ -3,19 +3,9 @@ Quantum Budget is a free and open-source budgeting app.
 
 ## Non-trivial Todo
 
-### "Budget" page
+### General
 
-- Settings modal
-- "Overspent" notification
-- "To be budgeted" notification
-
-### "Accounts" page
-
-### "Transaction" page
-
-### "Reports" page
-
-### "Help" page
+- Get a logo
 
 ## Ask a professsional
 
