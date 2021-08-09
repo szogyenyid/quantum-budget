@@ -11,7 +11,8 @@ class QuantumLoader{
 
         // Load stuff into the right place
         Array.from($('[data-include]')).forEach(element => {
-            element.innerHTML = this.templateGenerator["Get" + element.getAttribute("data-include")]();
+            var params = (element.getAttribute("data-params") != undefined ? element.getAttribute("data-params").split('¤') : null);
+            element.innerHTML = this.templateGenerator["Get" + element.getAttribute("data-include")](params);
         });
     }
 }
