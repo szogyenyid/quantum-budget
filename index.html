@@ -30,8 +30,8 @@
     <section class="section m-0 px-1 py-0 navbar is-fixed-top">
       <div class="container">
         <div class="columns is-mobile mx-1 my-0 is-vcentered" style="width:100%">
-            <div class="column is-10">
-              <input class="input" type="month" id="start" name="start" min="2020-02" value="2021-07" style="width:auto;">
+            <div class="column is-10" data-include="MonthInput">
+              <!-- month chooser is handled by data-include -->
             </div>
             <div class="column is-2 has-text-centered" id="settingsIcon">
                 <span class="icon is-size-4">
@@ -167,3 +167,6 @@
 <script src="externals/jquery.min.js"></script>
 <script src="js/BulmaModal.js"></script>
 <script src="js/buttonHandlers.js"></script>
+<script src="js/QuantumLoader.js"></script>
+<script src="js/TemplateGenerator.js"></script>
+<script> var ql = new QuantumLoader(debug = true); </script>
