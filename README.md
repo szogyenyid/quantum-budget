@@ -11,7 +11,7 @@ Quantum Budget is a free and open-source budgeting app.
 
 - How to create the DOM with JS using data from SQLite, and show a loading screen during this process
 
-## Dev features:
+## Features for development
 
 ### data-include and data-params
 
